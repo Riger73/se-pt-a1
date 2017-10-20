@@ -119,7 +119,7 @@ public class SignupController implements Initializable {
                     } else {
                         // invalid last name
                         // TODO: more detailed error
-                        setError(lblError2, "Invalid phone number.");
+                        setError(lblError2, "Invalid phone number. Please try again.");
 
                         phone.requestFocus();
                     }
