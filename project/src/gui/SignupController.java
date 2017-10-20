@@ -79,7 +79,7 @@ public class SignupController implements Initializable {
                     // username and password are accepted
                     return true;
                 } else {
-                    setError(lblError1, "Passwords don't match.");
+                    setError(lblError1, "Passwords don't match. Please check and try again");
 
                     passwordConf.clear();
                     passwordConf.requestFocus();
@@ -119,7 +119,7 @@ public class SignupController implements Initializable {
                     } else {
                         // invalid last name
                         // TODO: more detailed error
-                        setError(lblError2, "Invalid phone number.");
+                        setError(lblError2, "Invalid phone number. Please try again.");
 
                         phone.requestFocus();
                     }
