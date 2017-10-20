@@ -79,7 +79,7 @@ public class SignupController implements Initializable {
                     // username and password are accepted
                     return true;
                 } else {
-                    setError(lblError1, "Passwords don't match.");
+                    setError(lblError1, "Passwords don't match. Please check and try again");
 
                     passwordConf.clear();
                     passwordConf.requestFocus();
