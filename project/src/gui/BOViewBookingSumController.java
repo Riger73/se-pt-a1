@@ -235,7 +235,8 @@ public class BOViewBookingSumController implements Initializable {
          * 
          * @author tn
          */
-
+        bookingP.getItems().setAll(c.getPastBookings());
+        bookingF.getItems().setAll(c.getFutureBookings());
     }
 
 }
